@@ -9,7 +9,7 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v2
       - name: Get env values
-        uses: doughepi/yaml-env-action@v1.0.0-beta.1
+        uses: doughepi/yaml-env-action@v1.0.0-beta.2
         with:
           files: env.yaml env.dev.yaml
       - name: Echo environment variable
