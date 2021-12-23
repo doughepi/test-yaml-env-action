@@ -12,3 +12,4 @@ jobs:
         uses: doughepi/yaml-env-action@v1.0.0-beta.1
         with:
           files: env.yaml env.dev.yaml
+      - run: echo "${{ env.NAME }}"
